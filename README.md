@@ -14,9 +14,11 @@
 
 ---
 
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
 ## Usage
 
-Create an Enigma object, there are a choice of 3 reflectors, and 5 rotors. Rotors 1-3 are mandatory, 4-5 are option and require keywords 'pos4' and 'pos5'.
+Create an Enigma object, there are a choice of 3 reflectors, and 5 rotors. Rotors 1-3 are mandatory, 4-5 are optional and require keywords 'pos4' and 'pos5'.
 
 ```python
 e = Enigma('reflectorB', 'rotor3', 'rotor1', 'rotor5', pos4='rotor4')
