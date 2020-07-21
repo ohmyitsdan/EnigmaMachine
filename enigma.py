@@ -3,11 +3,11 @@ class Enigma:
         rotors = {
         # 1930 Model Enigma I (3 Rotors)
         'rotor1': {'alpha':'EKMFLGDQVZNTOWYHXUSPAIBRCJ','turn':'R'},
-        'rotor2': {'alpha':'AJDKSIRUXBLHWTMCQGZNPYFVOE','turn':'D'}, #F
-        'rotor3': {'alpha':'BDFHJLCPRTXVZNYEIWGAKMUSQO','turn':'D'}, #W
+        'rotor2': {'alpha':'AJDKSIRUXBLHWTMCQGZNPYFVOE','turn':'F'},
+        'rotor3': {'alpha':'BDFHJLCPRTXVZNYEIWGAKMUSQO','turn':'W'},
         # 1938 Model M3 Army
-        'rotor4': {'alpha':'ESOVPZJAYQUIRHXLNFTGKDCMWB','turn':'S'}, #K
-        'rotor5': {'alpha':'VZBRGITYUPSDNHLXAWMJQOFECK','turn':'V'}} #A
+        'rotor4': {'alpha':'ESOVPZJAYQUIRHXLNFTGKDCMWB','turn':'K'},
+        'rotor5': {'alpha':'VZBRGITYUPSDNHLXAWMJQOFECK','turn':'A'}}
         # Reflectors
         reflectors = {
         'reflectorA': 'EJMZALYXVBWFCRQUONTSPIKHGD',
